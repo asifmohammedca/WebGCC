@@ -27,6 +27,7 @@ jobs:
         run: |
           mkdir -p _site
           cp Port.html _site/index.html
+          cp Image.png _site/Image.png
           touch _site/.nojekyll
 
       - name: Setup Pages
